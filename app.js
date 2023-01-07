@@ -1,10 +1,4 @@
-// const endpointtest = new URL(`https://someapi.com/api/`);
-// console.log("before",endpointtest.toString());
-// endpointtest.searchParams.set("token","123456");
-// endpointtest.searchParams.set("city","Tokyo");
-// console.log("after",endpointtest.toString());
 
-// apikey = 598ac9d7fb5d9179cbfc7e09826b85df
 // http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
 // https://api.open-meteo.com/v1/forecast?latitude=51.92&longitude=4.48&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,shortwave_radiation_sum&timezone=Europe%2FBerlin
 
@@ -15,7 +9,7 @@ const apiCall = async () => {
     // Fetch coordinates data for given city
 
     // const cityName = "Paris";
-    // const apiKey = "598ac9d7fb5d9179cbfc7e09826b85df";
+    // const apiKey = "";
     // const endpointGeo = new URL(`http://api.openweathermap.org/geo/1.0/direct?`);
     // endpointGeo.searchParams.set("q",cityName);
     // endpointGeo.searchParams.set("appid",apiKey);
