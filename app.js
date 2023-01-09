@@ -142,12 +142,13 @@ const apiCall = async () => {
               display: true,
               text: 'Value'
             },
-            suggestedMin: -15,
-            suggestedMax: 25
+            suggestedMin: -10,
+            suggestedMax: 30
           }
         }
       },
     };
+
 
   myChart = new Chart(ctx, config);
 
